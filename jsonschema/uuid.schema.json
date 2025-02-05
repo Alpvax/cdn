@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cdn.alpvax.com/main/jsonschema/uuid.schema.json",
+  "$id": "https://raw.githubusercontent.com/Alpvax/cdn/main/jsonschema/uuid.schema.json",
   "title": "UUID",
   "description": "A UUID string",
   "type": "string",

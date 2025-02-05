@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cdn.alpvax.com/main/jsonschema/darts/core.schema.json",
+  "$id": "https://raw.githubusercontent.com/Alpvax/cdn/main/jsonschema/darts/core.schema.json",
   "title": "Core Config",
   "description": "The core config",
   "type": "object",
@@ -8,7 +8,7 @@
     "defaultOrder": {
       "type": "array",
       "items": {
-        "$ref": "https://cdn.alpvax.com/uuid.schema.json"
+        "$ref": "https://raw.githubusercontent.com/Alpvax/cdn/main/jsonschema/uuid.schema.json"
       }
     },
     "defaultView": {
