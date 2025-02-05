@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jsonschema.alpvax.com/darts/core.schema.json",
+  "title": "Core Config",
+  "description": "The core config",
+  "type": "object",
+  "properties": {
+    "defaultOrder": {
+      "type": "array",
+      "items": {
+        "$ref": "https://jsonschema.alpvax.com/uuid.schema.json"
+      }
+    },
+    "defaultView": {
+      "type": "string"
+    },
+    "defaultGame": {
+      "type": "string"
+    }
+  }
+}
